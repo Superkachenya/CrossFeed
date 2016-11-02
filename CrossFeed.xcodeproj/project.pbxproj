@@ -13,9 +13,13 @@
 		8ECA674D1DCA634200A0E241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA674B1DCA634200A0E241 /* Main.storyboard */; };
 		8ECA674F1DCA634200A0E241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA674E1DCA634200A0E241 /* Assets.xcassets */; };
 		8ECA67521DCA634200A0E241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA67501DCA634200A0E241 /* LaunchScreen.storyboard */; };
+		8ECA675B1DCAA30F00A0E241 /* CFNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA675A1DCAA30F00A0E241 /* CFNetworkManager.m */; };
+		F44CF45A07649D7F88A8A2F1 /* libPods-CrossFeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A0FE98531C5A004FB43CDF /* libPods-CrossFeed.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76BB9F63E8CFE7BF8FDE8170 /* Pods-CrossFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossFeed/Pods-CrossFeed.release.xcconfig"; sourceTree = "<group>"; };
+		85A0FE98531C5A004FB43CDF /* libPods-CrossFeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrossFeed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECA673F1DCA634200A0E241 /* CrossFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECA67431DCA634200A0E241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8ECA67451DCA634200A0E241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +30,9 @@
 		8ECA674E1DCA634200A0E241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ECA67511DCA634200A0E241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ECA67531DCA634200A0E241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECA67591DCAA30F00A0E241 /* CFNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFNetworkManager.h; path = CFNetworkManager/CFNetworkManager.h; sourceTree = "<group>"; };
+		8ECA675A1DCAA30F00A0E241 /* CFNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFNetworkManager.m; path = CFNetworkManager/CFNetworkManager.m; sourceTree = "<group>"; };
+		BA08587EABA4295A8AE3E8C7 /* Pods-CrossFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossFeed/Pods-CrossFeed.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44CF45A07649D7F88A8A2F1 /* libPods-CrossFeed.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 			children = (
 				8ECA67411DCA634200A0E241 /* CrossFeed */,
 				8ECA67401DCA634200A0E241 /* Products */,
+				AE253D723EB7A41F4BA221A9 /* Pods */,
+				E88401D707D350169293BF74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +72,7 @@
 				8ECA67461DCA634200A0E241 /* AppDelegate.m */,
 				8ECA67481DCA634200A0E241 /* ViewController.h */,
 				8ECA67491DCA634200A0E241 /* ViewController.m */,
+				8ECA675C1DCAA31900A0E241 /* CFNetworkManager */,
 				8ECA674B1DCA634200A0E241 /* Main.storyboard */,
 				8ECA674E1DCA634200A0E241 /* Assets.xcassets */,
 				8ECA67501DCA634200A0E241 /* LaunchScreen.storyboard */,
@@ -79,6 +90,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8ECA675C1DCAA31900A0E241 /* CFNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				8ECA67591DCAA30F00A0E241 /* CFNetworkManager.h */,
+				8ECA675A1DCAA30F00A0E241 /* CFNetworkManager.m */,
+			);
+			name = CFNetworkManager;
+			sourceTree = "<group>";
+		};
+		AE253D723EB7A41F4BA221A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA08587EABA4295A8AE3E8C7 /* Pods-CrossFeed.debug.xcconfig */,
+				76BB9F63E8CFE7BF8FDE8170 /* Pods-CrossFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E88401D707D350169293BF74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85A0FE98531C5A004FB43CDF /* libPods-CrossFeed.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ECA67561DCA634200A0E241 /* Build configuration list for PBXNativeTarget "CrossFeed" */;
 			buildPhases = (
+				66A6E81B19521EB8F5E5D49B /* [CP] Check Pods Manifest.lock */,
 				8ECA673B1DCA634200A0E241 /* Sources */,
 				8ECA673C1DCA634200A0E241 /* Frameworks */,
 				8ECA673D1DCA634200A0E241 /* Resources */,
+				9300C8E3A192B0C07A6F852B /* [CP] Embed Pods Frameworks */,
+				8687DC812D573EF443785B66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +145,7 @@
 		8ECA67371DCA634200A0E241 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CF;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = DanilVoitenko;
 				TargetAttributes = {
@@ -145,6 +186,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66A6E81B19521EB8F5E5D49B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8687DC812D573EF443785B66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossFeed/Pods-CrossFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9300C8E3A192B0C07A6F852B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossFeed/Pods-CrossFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8ECA673B1DCA634200A0E241 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -153,6 +242,7 @@
 				8ECA674A1DCA634200A0E241 /* ViewController.m in Sources */,
 				8ECA67471DCA634200A0E241 /* AppDelegate.m in Sources */,
 				8ECA67441DCA634200A0E241 /* main.m in Sources */,
+				8ECA675B1DCAA30F00A0E241 /* CFNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +286,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -218,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -243,6 +334,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -259,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -268,6 +360,7 @@
 		};
 		8ECA67571DCA634200A0E241 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA08587EABA4295A8AE3E8C7 /* Pods-CrossFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CrossFeed/Info.plist;
@@ -279,6 +372,7 @@
 		};
 		8ECA67581DCA634200A0E241 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76BB9F63E8CFE7BF8FDE8170 /* Pods-CrossFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CrossFeed/Info.plist;
@@ -307,6 +401,7 @@
 				8ECA67581DCA634200A0E241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

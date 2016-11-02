@@ -1,0 +1,29 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FastEasyMapping (1.1.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - FastEasyMapping (~> 1.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FastEasyMapping: 831fa5ee2c7038542b9fee90aee4fd8f6b959f1c
+
+PODFILE CHECKSUM: f5a6b9e5968ba28e427bd12403f8eaa61a057144
+
+COCOAPODS: 1.0.1
