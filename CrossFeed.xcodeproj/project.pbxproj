@@ -14,6 +14,9 @@
 		8ECA674F1DCA634200A0E241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA674E1DCA634200A0E241 /* Assets.xcassets */; };
 		8ECA67521DCA634200A0E241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA67501DCA634200A0E241 /* LaunchScreen.storyboard */; };
 		8ECA675B1DCAA30F00A0E241 /* CFNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA675A1DCAA30F00A0E241 /* CFNetworkManager.m */; };
+		8ED1EFFE1DCDFC5100C1AC8E /* CFXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1EFFD1DCDFC5100C1AC8E /* CFXMLParser.m */; };
+		8ED1F0021DCE05F100C1AC8E /* CFBBCArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0011DCE05F100C1AC8E /* CFBBCArticle.m */; };
+		8ED1F01E1DCE28E700C1AC8E /* CFStackOverflowPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F01D1DCE28E700C1AC8E /* CFStackOverflowPost.m */; };
 		F44CF45A07649D7F88A8A2F1 /* libPods-CrossFeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A0FE98531C5A004FB43CDF /* libPods-CrossFeed.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,12 @@
 		8ECA67531DCA634200A0E241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ECA67591DCAA30F00A0E241 /* CFNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFNetworkManager.h; path = CFNetworkManager/CFNetworkManager.h; sourceTree = "<group>"; };
 		8ECA675A1DCAA30F00A0E241 /* CFNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFNetworkManager.m; path = CFNetworkManager/CFNetworkManager.m; sourceTree = "<group>"; };
+		8ED1EFFC1DCDFC5100C1AC8E /* CFXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFXMLParser.h; path = CFXMLParser/CFXMLParser.h; sourceTree = "<group>"; };
+		8ED1EFFD1DCDFC5100C1AC8E /* CFXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFXMLParser.m; path = CFXMLParser/CFXMLParser.m; sourceTree = "<group>"; };
+		8ED1F0001DCE05F100C1AC8E /* CFBBCArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFBBCArticle.h; path = CFBBCArticle/CFBBCArticle.h; sourceTree = "<group>"; };
+		8ED1F0011DCE05F100C1AC8E /* CFBBCArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFBBCArticle.m; path = CFBBCArticle/CFBBCArticle.m; sourceTree = "<group>"; };
+		8ED1F01C1DCE28E700C1AC8E /* CFStackOverflowPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFStackOverflowPost.h; path = CFStackOverFlowPost/CFStackOverflowPost.h; sourceTree = "<group>"; };
+		8ED1F01D1DCE28E700C1AC8E /* CFStackOverflowPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFStackOverflowPost.m; path = CFStackOverFlowPost/CFStackOverflowPost.m; sourceTree = "<group>"; };
 		BA08587EABA4295A8AE3E8C7 /* Pods-CrossFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossFeed/Pods-CrossFeed.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,9 +79,12 @@
 			children = (
 				8ECA67451DCA634200A0E241 /* AppDelegate.h */,
 				8ECA67461DCA634200A0E241 /* AppDelegate.m */,
+				8ED1F0031DCE05F500C1AC8E /* BBCArticle */,
+				8ED1F01F1DCE28F200C1AC8E /* CFStackOverflowPost */,
+				8ECA675C1DCAA31900A0E241 /* CFNetworkManager */,
+				8ED1EFFF1DCDFC5800C1AC8E /* CFXMLParser */,
 				8ECA67481DCA634200A0E241 /* ViewController.h */,
 				8ECA67491DCA634200A0E241 /* ViewController.m */,
-				8ECA675C1DCAA31900A0E241 /* CFNetworkManager */,
 				8ECA674B1DCA634200A0E241 /* Main.storyboard */,
 				8ECA674E1DCA634200A0E241 /* Assets.xcassets */,
 				8ECA67501DCA634200A0E241 /* LaunchScreen.storyboard */,
@@ -97,6 +109,33 @@
 				8ECA675A1DCAA30F00A0E241 /* CFNetworkManager.m */,
 			);
 			name = CFNetworkManager;
+			sourceTree = "<group>";
+		};
+		8ED1EFFF1DCDFC5800C1AC8E /* CFXMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				8ED1EFFC1DCDFC5100C1AC8E /* CFXMLParser.h */,
+				8ED1EFFD1DCDFC5100C1AC8E /* CFXMLParser.m */,
+			);
+			name = CFXMLParser;
+			sourceTree = "<group>";
+		};
+		8ED1F0031DCE05F500C1AC8E /* BBCArticle */ = {
+			isa = PBXGroup;
+			children = (
+				8ED1F0001DCE05F100C1AC8E /* CFBBCArticle.h */,
+				8ED1F0011DCE05F100C1AC8E /* CFBBCArticle.m */,
+			);
+			name = BBCArticle;
+			sourceTree = "<group>";
+		};
+		8ED1F01F1DCE28F200C1AC8E /* CFStackOverflowPost */ = {
+			isa = PBXGroup;
+			children = (
+				8ED1F01C1DCE28E700C1AC8E /* CFStackOverflowPost.h */,
+				8ED1F01D1DCE28E700C1AC8E /* CFStackOverflowPost.m */,
+			);
+			name = CFStackOverflowPost;
 			sourceTree = "<group>";
 		};
 		AE253D723EB7A41F4BA221A9 /* Pods */ = {
@@ -240,7 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ECA674A1DCA634200A0E241 /* ViewController.m in Sources */,
+				8ED1F0021DCE05F100C1AC8E /* CFBBCArticle.m in Sources */,
+				8ED1F01E1DCE28E700C1AC8E /* CFStackOverflowPost.m in Sources */,
 				8ECA67471DCA634200A0E241 /* AppDelegate.m in Sources */,
+				8ED1EFFE1DCDFC5100C1AC8E /* CFXMLParser.m in Sources */,
 				8ECA67441DCA634200A0E241 /* main.m in Sources */,
 				8ECA675B1DCAA30F00A0E241 /* CFNetworkManager.m in Sources */,
 			);

@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AFNetworking/AFNetworking.h>
+typedef void (^CFSuccessErrorCompletionBlock)(id responseObject, NSError *error);
 
 @interface CFNetworkManager : NSObject
+
+@property (nonatomic, strong) AFHTTPSessionManager *httpSessionManager;
+
+
+- (NSURLSessionDataTask *)GET:(NSString *)URLString
+                   parameters:(NSDictionary *)parameters
+                   completion:(CFSuccessErrorCompletionBlock)completion;
 
 @end

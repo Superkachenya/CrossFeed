@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "CFXMLParser.h"
+#import "CFNetworkManager.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    CFXMLParser *test = [CFXMLParser new];
+    NSArray *testArray = test.testArray;
+    NSLog(@"%@",testArray);
+    
+    CFNetworkManager *testManager = [CFNetworkManager new];
+    
+    [testManager GET:@"questions" parameters:@{@"order":@"desc",
+                                                                                       @"sort":@"activity",
+                                                                                       @"site":@"stackoverflow"} completion:^(id responseObject, NSError *error) {
+        
+    }];
     return YES;
 }
 
