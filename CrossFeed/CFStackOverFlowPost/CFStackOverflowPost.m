@@ -7,7 +7,6 @@
 //
 
 #import "CFStackOverflowPost.h"
-#import <FastEasyMapping/FastEasyMapping.h>
 
 @implementation CFStackOverflowPost
 

@@ -179,11 +179,10 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fEb-Bl-yg4" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="qqj-r9-EMQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qqj-r9-EMQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.0" green="0.63768875838926176" blue="0.45509123322147649" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.04926069630872483" blue="0.58884752516778427" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </textAttributes>
