@@ -12,12 +12,12 @@
 
 @property (nonatomic, strong, readonly) NSString *title;
 @property (nonatomic, strong, readonly) NSString *articleDescription;
-@property (nonatomic, strong, readonly) NSString *pubDate;
+@property (nonatomic, strong, readonly) NSDate *pubDate;
 @property (nonatomic, strong, readonly) NSString *link;
 @property (nonatomic, strong, readonly) NSString *guid;
 @property (nonatomic, strong, readonly) NSString *thumbnaleUrl;
 
 
-- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary NS_DESIGNATED_INITIALIZER;
 
 @end

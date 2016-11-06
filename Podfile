@@ -7,7 +7,6 @@ target 'CrossFeed' do
   inhibit_all_warnings!
   # Pods for CrossFeed
 pod ‘AFNetworking’
-pod 'FastEasyMapping', '~> 1.1'
 pod 'SHXMLParser', '~> 1.1'
 pod 'SDWebImage', '~> 3.8'
 end

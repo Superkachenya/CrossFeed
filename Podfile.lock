@@ -14,7 +14,6 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - FastEasyMapping (1.1.1)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -22,16 +21,14 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - FastEasyMapping (~> 1.1)
   - SDWebImage (~> 3.8)
   - SHXMLParser (~> 1.1)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  FastEasyMapping: 831fa5ee2c7038542b9fee90aee4fd8f6b959f1c
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SHXMLParser: 3e5ada336541b3e5b8d66046a14c2bf49742c62e
 
-PODFILE CHECKSUM: 5dd9f7e3fdeb004d2b3ac2c10968a8dcb6793d5b
+PODFILE CHECKSUM: f07631060f8068556bce195dde0d934295f52a9b
 
 COCOAPODS: 1.0.1

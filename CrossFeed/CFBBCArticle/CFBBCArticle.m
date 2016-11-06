@@ -7,30 +7,26 @@
 //
 
 #import "CFBBCArticle.h"
-
-@interface CFBBCArticle ()
-
-@property (nonatomic, strong, readwrite) NSString *title;
-@property (nonatomic, strong, readwrite) NSString *articleDescription;
-@property (nonatomic, strong, readwrite) NSString *pubDate;
-@property (nonatomic, strong, readwrite) NSString *link;
-@property (nonatomic, strong, readwrite) NSString *guid;
-@property (nonatomic, strong, readwrite) NSString *thumbnaleUrl;
-
-@end
+#import "NSDate+CFDateConverter.h"
 
 @implementation CFBBCArticle
 
+#pragma mark - Initializers
+
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary {
     if (self = [super init]) {
-        self.title = dictionary[@"title"];
-        self.articleDescription = dictionary[@"description"];
-        self.link = dictionary[@"link"];
-        self.guid = dictionary[@"guid"];
-        self.pubDate = dictionary[@"pubDate"];
-        self.thumbnaleUrl = dictionary[@"media:thumbnail"][@"url"];
+        _title = dictionary[@"title"];
+        _articleDescription = dictionary[@"description"];
+        _link = dictionary[@"link"];
+        _guid = dictionary[@"guid"];
+        _pubDate = [NSDate dateFromString:(NSString *)dictionary[@"pubDate"]];
+        _thumbnaleUrl = dictionary[@"media:thumbnail"][@"url"];
     }
     return self;
+}
+
+- (instancetype)init {
+    return [self initWithDictionary:nil];
 }
 
 @end
