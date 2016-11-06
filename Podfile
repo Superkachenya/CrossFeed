@@ -4,8 +4,9 @@
 target 'CrossFeed' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-
+  inhibit_all_warnings!
   # Pods for CrossFeed
 pod ‘AFNetworking’
-pod 'FastEasyMapping', '~> 1.1'
+pod 'SHXMLParser', '~> 1.1'
+pod 'SDWebImage', '~> 3.8'
 end
