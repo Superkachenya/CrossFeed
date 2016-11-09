@@ -12,7 +12,7 @@
 #import "CFMainViewController.h"
 #import "CFBBCNetworkManager.h"
 
-@interface CFBBCFeedsDataSource ()
+@interface CFBBCFeedsDataSource () <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet CFMainViewController *viewController;
 @property (strong, nonatomic) NSArray *dataSourceArray;
@@ -45,8 +45,8 @@
 
 #pragma mark - UITableViewDelegate
 
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 120;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end

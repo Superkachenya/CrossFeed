@@ -16,7 +16,7 @@
 #import "CFBBCArticle.h"
 #import "CFStackOverflowPost.h"
 
-@interface CFAllFeedsDataSource ()
+@interface CFAllFeedsDataSource () <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet CFMainViewController *viewController;
 @property (strong, nonatomic) NSArray *dataSourceArray;
@@ -55,8 +55,8 @@
 
 #pragma mark - UITableViewDelegate
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 120.0;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 #pragma mark - Private

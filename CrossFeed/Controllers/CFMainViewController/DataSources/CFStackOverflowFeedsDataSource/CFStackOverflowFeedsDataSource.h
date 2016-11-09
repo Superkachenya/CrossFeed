@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface CFStackOverflowFeedsDataSource : NSObject<UITableViewDelegate, UITableViewDataSource>
+@interface CFStackOverflowFeedsDataSource : NSObject 
 
 @end

@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface CFAllFeedsDataSource : NSObject<UITableViewDelegate, UITableViewDataSource>
+@interface CFAllFeedsDataSource : NSObject
 
 @end

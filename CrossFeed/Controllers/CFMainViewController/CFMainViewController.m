@@ -11,6 +11,8 @@
 #import "CFBBCFeedsDataSource.h"
 #import "CFStackOverflowFeedsDataSource.h"
 
+static CGFloat const kCFEstimatedRowHeight = 120.0;
+
 typedef NS_ENUM(NSInteger, CFDataSourceType) {
     CFDataSourceTypeAll,
     CFDataSourceTypeBBC,
@@ -36,16 +38,14 @@ typedef NS_ENUM(NSInteger, CFDataSourceType) {
     __weak typeof(self)weakSelf = self;
     self.tableView.dataSource = self.allFeedsDataSource;
     self.tableView.delegate = self.allFeedsDataSource;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.tableView.estimatedRowHeight = kCFEstimatedRowHeight;
     self.segmentedControl.selectedSegmentIndex = CFDataSourceTypeAll;
     self.successBlock = ^{
         [weakSelf.tableView reloadData];
     };
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 - (IBAction)actionSegmentedControlValueChanged:(UISegmentedControl *)sender {
     [self.tableView setContentOffset:CGPointZero animated:NO];
     switch (sender.selectedSegmentIndex) {
@@ -68,15 +68,5 @@ typedef NS_ENUM(NSInteger, CFDataSourceType) {
             break;
     }
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
