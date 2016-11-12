@@ -10,6 +10,8 @@
 #import "CFAllFeedsDataSource.h"
 #import "CFBBCFeedsDataSource.h"
 #import "CFStackOverflowFeedsDataSource.h"
+#import "CFStackOverflowTableViewCell.h"
+#import "CFBBCTableViewCell.h"
 
 static CGFloat const kCFEstimatedRowHeight = 120.0;
 
@@ -32,6 +34,8 @@ typedef NS_ENUM(NSInteger, CFDataSourceType) {
 
 @implementation CFMainViewController
 
+#pragma mark - LifeCycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -40,11 +44,14 @@ typedef NS_ENUM(NSInteger, CFDataSourceType) {
     self.tableView.delegate = self.allFeedsDataSource;
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     self.tableView.estimatedRowHeight = kCFEstimatedRowHeight;
+    [self setupCellsToTableView];
     self.segmentedControl.selectedSegmentIndex = CFDataSourceTypeAll;
     self.successBlock = ^{
         [weakSelf.tableView reloadData];
     };
 }
+
+#pragma mark - IBActions
 
 - (IBAction)actionSegmentedControlValueChanged:(UISegmentedControl *)sender {
     [self.tableView setContentOffset:CGPointZero animated:NO];
@@ -67,6 +74,17 @@ typedef NS_ENUM(NSInteger, CFDataSourceType) {
         default:
             break;
     }
+}
+
+#pragma mark - Helpers
+
+- (void)setupCellsToTableView {
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([CFStackOverflowTableViewCell class])
+                                               bundle:nil]
+         forCellReuseIdentifier: NSStringFromClass([CFStackOverflowTableViewCell class])];
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([CFBBCTableViewCell class])
+                                               bundle:nil]
+         forCellReuseIdentifier: NSStringFromClass([CFBBCTableViewCell class])];
 }
 
 @end

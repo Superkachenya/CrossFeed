@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E3C2FDE1DD78AB000F53AA4 /* NSString+CFStringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C2FDD1DD78AB000F53AA4 /* NSString+CFStringExtension.m */; };
+		8E3C2FE01DD78C8200F53AA4 /* CFStackOverflowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E3C2FDF1DD78C8200F53AA4 /* CFStackOverflowTableViewCell.xib */; };
+		8E3C2FE21DD790DE00F53AA4 /* CFBBCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E3C2FE11DD790DE00F53AA4 /* CFBBCTableViewCell.xib */; };
 		8ECA67441DCA634200A0E241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA67431DCA634200A0E241 /* main.m */; };
 		8ECA67471DCA634200A0E241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA67461DCA634200A0E241 /* AppDelegate.m */; };
 		8ECA674D1DCA634200A0E241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA674B1DCA634200A0E241 /* Main.storyboard */; };
@@ -30,6 +33,10 @@
 /* Begin PBXFileReference section */
 		76BB9F63E8CFE7BF8FDE8170 /* Pods-CrossFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossFeed/Pods-CrossFeed.release.xcconfig"; sourceTree = "<group>"; };
 		85A0FE98531C5A004FB43CDF /* libPods-CrossFeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrossFeed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3C2FDC1DD78AB000F53AA4 /* NSString+CFStringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CFStringExtension.h"; path = "Common/NSString+CFStringExtension.h"; sourceTree = "<group>"; };
+		8E3C2FDD1DD78AB000F53AA4 /* NSString+CFStringExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CFStringExtension.m"; path = "Common/NSString+CFStringExtension.m"; sourceTree = "<group>"; };
+		8E3C2FDF1DD78C8200F53AA4 /* CFStackOverflowTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CFStackOverflowTableViewCell.xib; path = Resources/CFStackOverflowTableViewCell.xib; sourceTree = "<group>"; };
+		8E3C2FE11DD790DE00F53AA4 /* CFBBCTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CFBBCTableViewCell.xib; path = Resources/CFBBCTableViewCell.xib; sourceTree = "<group>"; };
 		8ECA673F1DCA634200A0E241 /* CrossFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECA67431DCA634200A0E241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8ECA67451DCA634200A0E241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E3C2FE31DD7920F00F53AA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E3C2FDF1DD78C8200F53AA4 /* CFStackOverflowTableViewCell.xib */,
+				8E3C2FE11DD790DE00F53AA4 /* CFBBCTableViewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		8ECA67361DCA634200A0E241 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +121,7 @@
 				8ED1F0471DCF806900C1AC8E /* Managers */,
 				8ED1F02B1DCF772500C1AC8E /* Controllers */,
 				8ECA674B1DCA634200A0E241 /* Main.storyboard */,
+				8E3C2FE31DD7920F00F53AA4 /* Resources */,
 				8ECA674E1DCA634200A0E241 /* Assets.xcassets */,
 				8ECA67501DCA634200A0E241 /* LaunchScreen.storyboard */,
 				8ECA67531DCA634200A0E241 /* Info.plist */,
@@ -164,6 +181,8 @@
 				8ED1F0211DCF49D000C1AC8E /* NSDate+CFDateConverter.m */,
 				8ED1F0481DCF80EC00C1AC8E /* UIViewController+CFErrorAlert.h */,
 				8ED1F0491DCF80EC00C1AC8E /* UIViewController+CFErrorAlert.m */,
+				8E3C2FDC1DD78AB000F53AA4 /* NSString+CFStringExtension.h */,
+				8E3C2FDD1DD78AB000F53AA4 /* NSString+CFStringExtension.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -348,6 +367,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3C2FE01DD78C8200F53AA4 /* CFStackOverflowTableViewCell.xib in Resources */,
+				8E3C2FE21DD790DE00F53AA4 /* CFBBCTableViewCell.xib in Resources */,
 				8ECA67521DCA634200A0E241 /* LaunchScreen.storyboard in Resources */,
 				8ECA674F1DCA634200A0E241 /* Assets.xcassets in Resources */,
 				8ECA674D1DCA634200A0E241 /* Main.storyboard in Resources */,
@@ -417,6 +438,7 @@
 				8ED1F0441DCF78DC00C1AC8E /* CFBBCTableViewCell.m in Sources */,
 				8ED1F01E1DCE28E700C1AC8E /* CFStackOverflowPost.m in Sources */,
 				8ECA67471DCA634200A0E241 /* AppDelegate.m in Sources */,
+				8E3C2FDE1DD78AB000F53AA4 /* NSString+CFStringExtension.m in Sources */,
 				8ED1EFFE1DCDFC5100C1AC8E /* CFBBCNetworkManager.m in Sources */,
 				8ECA67441DCA634200A0E241 /* main.m in Sources */,
 				8ECA675B1DCAA30F00A0E241 /* CFStackOverflowNetworkManager.m in Sources */,

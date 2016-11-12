@@ -8,6 +8,9 @@
 
 #import "NSDate+CFDateConverter.h"
 
+NSInteger const kCFSecsInMinute = 60;
+
+
 @implementation NSDate (CFDateConverter)
 
 + (NSDate *)dateFromString:(NSString *)string {
@@ -20,6 +23,12 @@
     return [NSDateFormatter localizedStringFromDate:self
                                           dateStyle:NSDateFormatterShortStyle
                                           timeStyle:NSDateFormatterMediumStyle];
+}
+
+- (NSInteger)calculateTimeBetweenNowAndDate {
+    NSDate *now = [NSDate date];
+    NSTimeInterval difference = [now timeIntervalSinceDate:self];
+    return (long)difference;
 }
 
 @end
