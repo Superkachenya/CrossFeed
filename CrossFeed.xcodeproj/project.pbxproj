@@ -339,8 +339,7 @@
 				TargetAttributes = {
 					8ECA673E1DCA634200A0E241 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = A6LF3JN6LP;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -565,7 +564,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = A6LF3JN6LP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CrossFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DanilVoitenko.CrossFeed;
@@ -581,7 +580,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = A6LF3JN6LP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CrossFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DanilVoitenko.CrossFeed;
