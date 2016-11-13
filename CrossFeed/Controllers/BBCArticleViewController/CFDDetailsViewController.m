@@ -7,7 +7,6 @@
 //
 
 #import "CFDDetailsViewController.h"
-#import "UIViewController+CFDErrorAlert.h"
 
 @interface CFDDetailsViewController () <UIWebViewDelegate, UIScrollViewDelegate>
 
@@ -44,7 +43,6 @@
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
-    [self createAlertForError:error];
     [self.activityIndicator stopAnimating];
 }
 
