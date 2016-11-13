@@ -7,36 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E3C2FDE1DD78AB000F53AA4 /* NSString+CFStringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C2FDD1DD78AB000F53AA4 /* NSString+CFStringExtension.m */; };
-		8E3C2FE01DD78C8200F53AA4 /* CFStackOverflowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E3C2FDF1DD78C8200F53AA4 /* CFStackOverflowTableViewCell.xib */; };
-		8E3C2FE21DD790DE00F53AA4 /* CFBBCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E3C2FE11DD790DE00F53AA4 /* CFBBCTableViewCell.xib */; };
+		8E3C2FDE1DD78AB000F53AA4 /* NSString+CFDStringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C2FDD1DD78AB000F53AA4 /* NSString+CFDStringExtension.m */; };
+		8E3C2FE61DD89FEE00F53AA4 /* CFDDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C2FE51DD89FEE00F53AA4 /* CFDDetailsViewController.m */; };
 		8ECA67441DCA634200A0E241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA67431DCA634200A0E241 /* main.m */; };
 		8ECA67471DCA634200A0E241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA67461DCA634200A0E241 /* AppDelegate.m */; };
 		8ECA674D1DCA634200A0E241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA674B1DCA634200A0E241 /* Main.storyboard */; };
 		8ECA674F1DCA634200A0E241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA674E1DCA634200A0E241 /* Assets.xcassets */; };
 		8ECA67521DCA634200A0E241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA67501DCA634200A0E241 /* LaunchScreen.storyboard */; };
-		8ECA675B1DCAA30F00A0E241 /* CFStackOverflowNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA675A1DCAA30F00A0E241 /* CFStackOverflowNetworkManager.m */; };
-		8ED1EFFE1DCDFC5100C1AC8E /* CFBBCNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1EFFD1DCDFC5100C1AC8E /* CFBBCNetworkManager.m */; };
-		8ED1F0021DCE05F100C1AC8E /* CFBBCArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0011DCE05F100C1AC8E /* CFBBCArticle.m */; };
-		8ED1F01E1DCE28E700C1AC8E /* CFStackOverflowPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F01D1DCE28E700C1AC8E /* CFStackOverflowPost.m */; };
-		8ED1F0221DCF49D000C1AC8E /* NSDate+CFDateConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0211DCF49D000C1AC8E /* NSDate+CFDateConverter.m */; };
-		8ED1F02E1DCF776A00C1AC8E /* CFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F02D1DCF776A00C1AC8E /* CFMainViewController.m */; };
-		8ED1F0321DCF77D600C1AC8E /* CFAllFeedsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0311DCF77D600C1AC8E /* CFAllFeedsDataSource.m */; };
-		8ED1F0361DCF780900C1AC8E /* CFBBCFeedsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0351DCF780900C1AC8E /* CFBBCFeedsDataSource.m */; };
-		8ED1F03A1DCF785800C1AC8E /* CFStackOverflowFeedsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0391DCF785800C1AC8E /* CFStackOverflowFeedsDataSource.m */; };
-		8ED1F0401DCF78B700C1AC8E /* CFStackOverflowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F03F1DCF78B700C1AC8E /* CFStackOverflowTableViewCell.m */; };
-		8ED1F0441DCF78DC00C1AC8E /* CFBBCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0431DCF78DC00C1AC8E /* CFBBCTableViewCell.m */; };
-		8ED1F04A1DCF80EC00C1AC8E /* UIViewController+CFErrorAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0491DCF80EC00C1AC8E /* UIViewController+CFErrorAlert.m */; };
+		8ECA675B1DCAA30F00A0E241 /* CFDStackOverflowNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA675A1DCAA30F00A0E241 /* CFDStackOverflowNetworkManager.m */; };
+		8ED1EFFE1DCDFC5100C1AC8E /* CFDBBCNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1EFFD1DCDFC5100C1AC8E /* CFDBBCNetworkManager.m */; };
+		8ED1F0021DCE05F100C1AC8E /* CFDBBCArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0011DCE05F100C1AC8E /* CFDBBCArticle.m */; };
+		8ED1F01E1DCE28E700C1AC8E /* CFDStackOverflowPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F01D1DCE28E700C1AC8E /* CFDStackOverflowPost.m */; };
+		8ED1F0221DCF49D000C1AC8E /* NSDate+CFDDateConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0211DCF49D000C1AC8E /* NSDate+CFDDateConverter.m */; };
+		8ED1F02E1DCF776A00C1AC8E /* CFDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F02D1DCF776A00C1AC8E /* CFDMainViewController.m */; };
+		8ED1F0321DCF77D600C1AC8E /* CFDAllFeedsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0311DCF77D600C1AC8E /* CFDAllFeedsDataSource.m */; };
+		8ED1F0361DCF780900C1AC8E /* CFDBBCFeedsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0351DCF780900C1AC8E /* CFDBBCFeedsDataSource.m */; };
+		8ED1F03A1DCF785800C1AC8E /* CFDStackOverflowFeedsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0391DCF785800C1AC8E /* CFDStackOverflowFeedsDataSource.m */; };
+		8ED1F0401DCF78B700C1AC8E /* CFDStackOverflowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F03F1DCF78B700C1AC8E /* CFDStackOverflowTableViewCell.m */; };
+		8ED1F0441DCF78DC00C1AC8E /* CFDBBCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0431DCF78DC00C1AC8E /* CFDBBCTableViewCell.m */; };
+		8ED1F04A1DCF80EC00C1AC8E /* UIViewController+CFDErrorAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1F0491DCF80EC00C1AC8E /* UIViewController+CFDErrorAlert.m */; };
 		F44CF45A07649D7F88A8A2F1 /* libPods-CrossFeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A0FE98531C5A004FB43CDF /* libPods-CrossFeed.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		76BB9F63E8CFE7BF8FDE8170 /* Pods-CrossFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossFeed/Pods-CrossFeed.release.xcconfig"; sourceTree = "<group>"; };
 		85A0FE98531C5A004FB43CDF /* libPods-CrossFeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrossFeed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E3C2FDC1DD78AB000F53AA4 /* NSString+CFStringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CFStringExtension.h"; path = "Common/NSString+CFStringExtension.h"; sourceTree = "<group>"; };
-		8E3C2FDD1DD78AB000F53AA4 /* NSString+CFStringExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CFStringExtension.m"; path = "Common/NSString+CFStringExtension.m"; sourceTree = "<group>"; };
-		8E3C2FDF1DD78C8200F53AA4 /* CFStackOverflowTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CFStackOverflowTableViewCell.xib; path = Resources/CFStackOverflowTableViewCell.xib; sourceTree = "<group>"; };
-		8E3C2FE11DD790DE00F53AA4 /* CFBBCTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CFBBCTableViewCell.xib; path = Resources/CFBBCTableViewCell.xib; sourceTree = "<group>"; };
+		8E3C2FDC1DD78AB000F53AA4 /* NSString+CFDStringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CFDStringExtension.h"; path = "Common/NSString+CFDStringExtension.h"; sourceTree = "<group>"; };
+		8E3C2FDD1DD78AB000F53AA4 /* NSString+CFDStringExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CFDStringExtension.m"; path = "Common/NSString+CFDStringExtension.m"; sourceTree = "<group>"; };
+		8E3C2FE41DD89FEE00F53AA4 /* CFDDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFDDetailsViewController.h; path = Controllers/BBCArticleViewController/CFDDetailsViewController.h; sourceTree = "<group>"; };
+		8E3C2FE51DD89FEE00F53AA4 /* CFDDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFDDetailsViewController.m; path = Controllers/BBCArticleViewController/CFDDetailsViewController.m; sourceTree = "<group>"; };
 		8ECA673F1DCA634200A0E241 /* CrossFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECA67431DCA634200A0E241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8ECA67451DCA634200A0E241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,30 +44,30 @@
 		8ECA674E1DCA634200A0E241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ECA67511DCA634200A0E241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ECA67531DCA634200A0E241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8ECA67591DCAA30F00A0E241 /* CFStackOverflowNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFStackOverflowNetworkManager.h; path = CFNetworkManager/CFStackOverflowNetworkManager.h; sourceTree = "<group>"; };
-		8ECA675A1DCAA30F00A0E241 /* CFStackOverflowNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFStackOverflowNetworkManager.m; path = CFNetworkManager/CFStackOverflowNetworkManager.m; sourceTree = "<group>"; };
-		8ED1EFFC1DCDFC5100C1AC8E /* CFBBCNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFBBCNetworkManager.h; path = CFXMLParser/CFBBCNetworkManager.h; sourceTree = "<group>"; };
-		8ED1EFFD1DCDFC5100C1AC8E /* CFBBCNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFBBCNetworkManager.m; path = CFXMLParser/CFBBCNetworkManager.m; sourceTree = "<group>"; };
-		8ED1F0001DCE05F100C1AC8E /* CFBBCArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFBBCArticle.h; path = CFBBCArticle/CFBBCArticle.h; sourceTree = "<group>"; };
-		8ED1F0011DCE05F100C1AC8E /* CFBBCArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFBBCArticle.m; path = CFBBCArticle/CFBBCArticle.m; sourceTree = "<group>"; };
-		8ED1F01C1DCE28E700C1AC8E /* CFStackOverflowPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFStackOverflowPost.h; path = CFStackOverFlowPost/CFStackOverflowPost.h; sourceTree = "<group>"; };
-		8ED1F01D1DCE28E700C1AC8E /* CFStackOverflowPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFStackOverflowPost.m; path = CFStackOverFlowPost/CFStackOverflowPost.m; sourceTree = "<group>"; };
-		8ED1F0201DCF49D000C1AC8E /* NSDate+CFDateConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+CFDateConverter.h"; path = "Common/NSDate+CFDateConverter.h"; sourceTree = "<group>"; };
-		8ED1F0211DCF49D000C1AC8E /* NSDate+CFDateConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CFDateConverter.m"; path = "Common/NSDate+CFDateConverter.m"; sourceTree = "<group>"; };
-		8ED1F02C1DCF776A00C1AC8E /* CFMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFMainViewController.h; path = Controllers/CFMainViewController/CFMainViewController.h; sourceTree = "<group>"; };
-		8ED1F02D1DCF776A00C1AC8E /* CFMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFMainViewController.m; path = Controllers/CFMainViewController/CFMainViewController.m; sourceTree = "<group>"; };
-		8ED1F0301DCF77D600C1AC8E /* CFAllFeedsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAllFeedsDataSource.h; path = Controllers/CFMainViewController/DataSources/CFAllFeedsDataSource/CFAllFeedsDataSource.h; sourceTree = "<group>"; };
-		8ED1F0311DCF77D600C1AC8E /* CFAllFeedsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAllFeedsDataSource.m; path = Controllers/CFMainViewController/DataSources/CFAllFeedsDataSource/CFAllFeedsDataSource.m; sourceTree = "<group>"; };
-		8ED1F0341DCF780900C1AC8E /* CFBBCFeedsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFBBCFeedsDataSource.h; path = Controllers/CFMainViewController/DataSources/CFBBCFeedsDataSource/CFBBCFeedsDataSource.h; sourceTree = "<group>"; };
-		8ED1F0351DCF780900C1AC8E /* CFBBCFeedsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFBBCFeedsDataSource.m; path = Controllers/CFMainViewController/DataSources/CFBBCFeedsDataSource/CFBBCFeedsDataSource.m; sourceTree = "<group>"; };
-		8ED1F0381DCF785800C1AC8E /* CFStackOverflowFeedsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFStackOverflowFeedsDataSource.h; path = Controllers/CFMainViewController/DataSources/CFStackOverflowFeedsDataSource/CFStackOverflowFeedsDataSource.h; sourceTree = "<group>"; };
-		8ED1F0391DCF785800C1AC8E /* CFStackOverflowFeedsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFStackOverflowFeedsDataSource.m; path = Controllers/CFMainViewController/DataSources/CFStackOverflowFeedsDataSource/CFStackOverflowFeedsDataSource.m; sourceTree = "<group>"; };
-		8ED1F03E1DCF78B700C1AC8E /* CFStackOverflowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFStackOverflowTableViewCell.h; path = Controllers/CFMainViewController/Cells/CFStackOverflowTableViewCell/CFStackOverflowTableViewCell.h; sourceTree = "<group>"; };
-		8ED1F03F1DCF78B700C1AC8E /* CFStackOverflowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFStackOverflowTableViewCell.m; path = Controllers/CFMainViewController/Cells/CFStackOverflowTableViewCell/CFStackOverflowTableViewCell.m; sourceTree = "<group>"; };
-		8ED1F0421DCF78DC00C1AC8E /* CFBBCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFBBCTableViewCell.h; path = Controllers/CFMainViewController/Cells/CFBBCTableViewCell/CFBBCTableViewCell.h; sourceTree = "<group>"; };
-		8ED1F0431DCF78DC00C1AC8E /* CFBBCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFBBCTableViewCell.m; path = Controllers/CFMainViewController/Cells/CFBBCTableViewCell/CFBBCTableViewCell.m; sourceTree = "<group>"; };
-		8ED1F0481DCF80EC00C1AC8E /* UIViewController+CFErrorAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CFErrorAlert.h"; path = "Common/UIViewController+CFErrorAlert.h"; sourceTree = "<group>"; };
-		8ED1F0491DCF80EC00C1AC8E /* UIViewController+CFErrorAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CFErrorAlert.m"; path = "Common/UIViewController+CFErrorAlert.m"; sourceTree = "<group>"; };
+		8ECA67591DCAA30F00A0E241 /* CFDStackOverflowNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFDStackOverflowNetworkManager.h; path = CFNetworkManager/CFDStackOverflowNetworkManager.h; sourceTree = "<group>"; };
+		8ECA675A1DCAA30F00A0E241 /* CFDStackOverflowNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFDStackOverflowNetworkManager.m; path = CFNetworkManager/CFDStackOverflowNetworkManager.m; sourceTree = "<group>"; };
+		8ED1EFFC1DCDFC5100C1AC8E /* CFDBBCNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFDBBCNetworkManager.h; path = CFXMLParser/CFDBBCNetworkManager.h; sourceTree = "<group>"; };
+		8ED1EFFD1DCDFC5100C1AC8E /* CFDBBCNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFDBBCNetworkManager.m; path = CFXMLParser/CFDBBCNetworkManager.m; sourceTree = "<group>"; };
+		8ED1F0001DCE05F100C1AC8E /* CFDBBCArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFDBBCArticle.h; path = CFBBCArticle/CFDBBCArticle.h; sourceTree = "<group>"; };
+		8ED1F0011DCE05F100C1AC8E /* CFDBBCArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFDBBCArticle.m; path = CFBBCArticle/CFDBBCArticle.m; sourceTree = "<group>"; };
+		8ED1F01C1DCE28E700C1AC8E /* CFDStackOverflowPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFDStackOverflowPost.h; path = CFStackOverFlowPost/CFDStackOverflowPost.h; sourceTree = "<group>"; };
+		8ED1F01D1DCE28E700C1AC8E /* CFDStackOverflowPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFDStackOverflowPost.m; path = CFStackOverFlowPost/CFDStackOverflowPost.m; sourceTree = "<group>"; };
+		8ED1F0201DCF49D000C1AC8E /* NSDate+CFDDateConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+CFDDateConverter.h"; path = "Common/NSDate+CFDDateConverter.h"; sourceTree = "<group>"; };
+		8ED1F0211DCF49D000C1AC8E /* NSDate+CFDDateConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CFDDateConverter.m"; path = "Common/NSDate+CFDDateConverter.m"; sourceTree = "<group>"; };
+		8ED1F02C1DCF776A00C1AC8E /* CFDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFDMainViewController.h; path = Controllers/CFMainViewController/CFDMainViewController.h; sourceTree = "<group>"; };
+		8ED1F02D1DCF776A00C1AC8E /* CFDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFDMainViewController.m; path = Controllers/CFMainViewController/CFDMainViewController.m; sourceTree = "<group>"; };
+		8ED1F0301DCF77D600C1AC8E /* CFDAllFeedsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFDAllFeedsDataSource.h; path = Controllers/CFMainViewController/DataSources/CFAllFeedsDataSource/CFDAllFeedsDataSource.h; sourceTree = "<group>"; };
+		8ED1F0311DCF77D600C1AC8E /* CFDAllFeedsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFDAllFeedsDataSource.m; path = Controllers/CFMainViewController/DataSources/CFAllFeedsDataSource/CFDAllFeedsDataSource.m; sourceTree = "<group>"; };
+		8ED1F0341DCF780900C1AC8E /* CFDBBCFeedsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFDBBCFeedsDataSource.h; path = Controllers/CFMainViewController/DataSources/CFBBCFeedsDataSource/CFDBBCFeedsDataSource.h; sourceTree = "<group>"; };
+		8ED1F0351DCF780900C1AC8E /* CFDBBCFeedsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFDBBCFeedsDataSource.m; path = Controllers/CFMainViewController/DataSources/CFBBCFeedsDataSource/CFDBBCFeedsDataSource.m; sourceTree = "<group>"; };
+		8ED1F0381DCF785800C1AC8E /* CFDStackOverflowFeedsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFDStackOverflowFeedsDataSource.h; path = Controllers/CFMainViewController/DataSources/CFStackOverflowFeedsDataSource/CFDStackOverflowFeedsDataSource.h; sourceTree = "<group>"; };
+		8ED1F0391DCF785800C1AC8E /* CFDStackOverflowFeedsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFDStackOverflowFeedsDataSource.m; path = Controllers/CFMainViewController/DataSources/CFStackOverflowFeedsDataSource/CFDStackOverflowFeedsDataSource.m; sourceTree = "<group>"; };
+		8ED1F03E1DCF78B700C1AC8E /* CFDStackOverflowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFDStackOverflowTableViewCell.h; path = Controllers/CFMainViewController/Cells/CFStackOverflowTableViewCell/CFDStackOverflowTableViewCell.h; sourceTree = "<group>"; };
+		8ED1F03F1DCF78B700C1AC8E /* CFDStackOverflowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFDStackOverflowTableViewCell.m; path = Controllers/CFMainViewController/Cells/CFStackOverflowTableViewCell/CFDStackOverflowTableViewCell.m; sourceTree = "<group>"; };
+		8ED1F0421DCF78DC00C1AC8E /* CFDBBCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFDBBCTableViewCell.h; path = Controllers/CFMainViewController/Cells/CFBBCTableViewCell/CFDBBCTableViewCell.h; sourceTree = "<group>"; };
+		8ED1F0431DCF78DC00C1AC8E /* CFDBBCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFDBBCTableViewCell.m; path = Controllers/CFMainViewController/Cells/CFBBCTableViewCell/CFDBBCTableViewCell.m; sourceTree = "<group>"; };
+		8ED1F0481DCF80EC00C1AC8E /* UIViewController+CFDErrorAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CFDErrorAlert.h"; path = "Common/UIViewController+CFDErrorAlert.h"; sourceTree = "<group>"; };
+		8ED1F0491DCF80EC00C1AC8E /* UIViewController+CFDErrorAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CFDErrorAlert.m"; path = "Common/UIViewController+CFDErrorAlert.m"; sourceTree = "<group>"; };
 		BA08587EABA4295A8AE3E8C7 /* Pods-CrossFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossFeed/Pods-CrossFeed.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,13 +83,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E3C2FE31DD7920F00F53AA4 /* Resources */ = {
+		8E3C2FE71DD89FFD00F53AA4 /* CFDBBCArticleViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8E3C2FDF1DD78C8200F53AA4 /* CFStackOverflowTableViewCell.xib */,
-				8E3C2FE11DD790DE00F53AA4 /* CFBBCTableViewCell.xib */,
+				8E3C2FE41DD89FEE00F53AA4 /* CFDDetailsViewController.h */,
+				8E3C2FE51DD89FEE00F53AA4 /* CFDDetailsViewController.m */,
 			);
-			name = Resources;
+			name = CFDBBCArticleViewController;
 			sourceTree = "<group>";
 		};
 		8ECA67361DCA634200A0E241 = {
@@ -121,7 +120,6 @@
 				8ED1F0471DCF806900C1AC8E /* Managers */,
 				8ED1F02B1DCF772500C1AC8E /* Controllers */,
 				8ECA674B1DCA634200A0E241 /* Main.storyboard */,
-				8E3C2FE31DD7920F00F53AA4 /* Resources */,
 				8ECA674E1DCA634200A0E241 /* Assets.xcassets */,
 				8ECA67501DCA634200A0E241 /* LaunchScreen.storyboard */,
 				8ECA67531DCA634200A0E241 /* Info.plist */,
@@ -141,8 +139,8 @@
 		8ECA675C1DCAA31900A0E241 /* CFStackOverflowNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				8ECA67591DCAA30F00A0E241 /* CFStackOverflowNetworkManager.h */,
-				8ECA675A1DCAA30F00A0E241 /* CFStackOverflowNetworkManager.m */,
+				8ECA67591DCAA30F00A0E241 /* CFDStackOverflowNetworkManager.h */,
+				8ECA675A1DCAA30F00A0E241 /* CFDStackOverflowNetworkManager.m */,
 			);
 			name = CFStackOverflowNetworkManager;
 			sourceTree = "<group>";
@@ -150,8 +148,8 @@
 		8ED1EFFF1DCDFC5800C1AC8E /* CFBBCNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				8ED1EFFC1DCDFC5100C1AC8E /* CFBBCNetworkManager.h */,
-				8ED1EFFD1DCDFC5100C1AC8E /* CFBBCNetworkManager.m */,
+				8ED1EFFC1DCDFC5100C1AC8E /* CFDBBCNetworkManager.h */,
+				8ED1EFFD1DCDFC5100C1AC8E /* CFDBBCNetworkManager.m */,
 			);
 			name = CFBBCNetworkManager;
 			sourceTree = "<group>";
@@ -159,8 +157,8 @@
 		8ED1F0031DCE05F500C1AC8E /* BBCArticle */ = {
 			isa = PBXGroup;
 			children = (
-				8ED1F0001DCE05F100C1AC8E /* CFBBCArticle.h */,
-				8ED1F0011DCE05F100C1AC8E /* CFBBCArticle.m */,
+				8ED1F0001DCE05F100C1AC8E /* CFDBBCArticle.h */,
+				8ED1F0011DCE05F100C1AC8E /* CFDBBCArticle.m */,
 			);
 			name = BBCArticle;
 			sourceTree = "<group>";
@@ -168,8 +166,8 @@
 		8ED1F01F1DCE28F200C1AC8E /* CFStackOverflowPost */ = {
 			isa = PBXGroup;
 			children = (
-				8ED1F01C1DCE28E700C1AC8E /* CFStackOverflowPost.h */,
-				8ED1F01D1DCE28E700C1AC8E /* CFStackOverflowPost.m */,
+				8ED1F01C1DCE28E700C1AC8E /* CFDStackOverflowPost.h */,
+				8ED1F01D1DCE28E700C1AC8E /* CFDStackOverflowPost.m */,
 			);
 			name = CFStackOverflowPost;
 			sourceTree = "<group>";
@@ -177,12 +175,12 @@
 		8ED1F0231DCF4EF500C1AC8E /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				8ED1F0201DCF49D000C1AC8E /* NSDate+CFDateConverter.h */,
-				8ED1F0211DCF49D000C1AC8E /* NSDate+CFDateConverter.m */,
-				8ED1F0481DCF80EC00C1AC8E /* UIViewController+CFErrorAlert.h */,
-				8ED1F0491DCF80EC00C1AC8E /* UIViewController+CFErrorAlert.m */,
-				8E3C2FDC1DD78AB000F53AA4 /* NSString+CFStringExtension.h */,
-				8E3C2FDD1DD78AB000F53AA4 /* NSString+CFStringExtension.m */,
+				8ED1F0201DCF49D000C1AC8E /* NSDate+CFDDateConverter.h */,
+				8ED1F0211DCF49D000C1AC8E /* NSDate+CFDDateConverter.m */,
+				8ED1F0481DCF80EC00C1AC8E /* UIViewController+CFDErrorAlert.h */,
+				8ED1F0491DCF80EC00C1AC8E /* UIViewController+CFDErrorAlert.m */,
+				8E3C2FDC1DD78AB000F53AA4 /* NSString+CFDStringExtension.h */,
+				8E3C2FDD1DD78AB000F53AA4 /* NSString+CFDStringExtension.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -191,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				8ED1F02F1DCF777B00C1AC8E /* CFMainViewController */,
+				8E3C2FE71DD89FFD00F53AA4 /* CFDBBCArticleViewController */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -198,8 +197,8 @@
 		8ED1F02F1DCF777B00C1AC8E /* CFMainViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8ED1F02C1DCF776A00C1AC8E /* CFMainViewController.h */,
-				8ED1F02D1DCF776A00C1AC8E /* CFMainViewController.m */,
+				8ED1F02C1DCF776A00C1AC8E /* CFDMainViewController.h */,
+				8ED1F02D1DCF776A00C1AC8E /* CFDMainViewController.m */,
 				8ED1F03D1DCF788B00C1AC8E /* Cells */,
 				8ED1F03C1DCF786700C1AC8E /* DataSources */,
 			);
@@ -209,8 +208,8 @@
 		8ED1F0331DCF77E000C1AC8E /* CFAllFeedsDataSource */ = {
 			isa = PBXGroup;
 			children = (
-				8ED1F0301DCF77D600C1AC8E /* CFAllFeedsDataSource.h */,
-				8ED1F0311DCF77D600C1AC8E /* CFAllFeedsDataSource.m */,
+				8ED1F0301DCF77D600C1AC8E /* CFDAllFeedsDataSource.h */,
+				8ED1F0311DCF77D600C1AC8E /* CFDAllFeedsDataSource.m */,
 			);
 			name = CFAllFeedsDataSource;
 			sourceTree = "<group>";
@@ -218,8 +217,8 @@
 		8ED1F0371DCF780D00C1AC8E /* CFBBCFeedsDataSource */ = {
 			isa = PBXGroup;
 			children = (
-				8ED1F0341DCF780900C1AC8E /* CFBBCFeedsDataSource.h */,
-				8ED1F0351DCF780900C1AC8E /* CFBBCFeedsDataSource.m */,
+				8ED1F0341DCF780900C1AC8E /* CFDBBCFeedsDataSource.h */,
+				8ED1F0351DCF780900C1AC8E /* CFDBBCFeedsDataSource.m */,
 			);
 			name = CFBBCFeedsDataSource;
 			sourceTree = "<group>";
@@ -227,8 +226,8 @@
 		8ED1F03B1DCF786200C1AC8E /* CFStackOverflowFeedsDataSource */ = {
 			isa = PBXGroup;
 			children = (
-				8ED1F0381DCF785800C1AC8E /* CFStackOverflowFeedsDataSource.h */,
-				8ED1F0391DCF785800C1AC8E /* CFStackOverflowFeedsDataSource.m */,
+				8ED1F0381DCF785800C1AC8E /* CFDStackOverflowFeedsDataSource.h */,
+				8ED1F0391DCF785800C1AC8E /* CFDStackOverflowFeedsDataSource.m */,
 			);
 			name = CFStackOverflowFeedsDataSource;
 			sourceTree = "<group>";
@@ -255,8 +254,8 @@
 		8ED1F0411DCF78BC00C1AC8E /* CFStackOverflowTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				8ED1F03E1DCF78B700C1AC8E /* CFStackOverflowTableViewCell.h */,
-				8ED1F03F1DCF78B700C1AC8E /* CFStackOverflowTableViewCell.m */,
+				8ED1F03E1DCF78B700C1AC8E /* CFDStackOverflowTableViewCell.h */,
+				8ED1F03F1DCF78B700C1AC8E /* CFDStackOverflowTableViewCell.m */,
 			);
 			name = CFStackOverflowTableViewCell;
 			sourceTree = "<group>";
@@ -264,8 +263,8 @@
 		8ED1F0451DCF78E600C1AC8E /* CFBBCTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				8ED1F0421DCF78DC00C1AC8E /* CFBBCTableViewCell.h */,
-				8ED1F0431DCF78DC00C1AC8E /* CFBBCTableViewCell.m */,
+				8ED1F0421DCF78DC00C1AC8E /* CFDBBCTableViewCell.h */,
+				8ED1F0431DCF78DC00C1AC8E /* CFDBBCTableViewCell.m */,
 			);
 			name = CFBBCTableViewCell;
 			sourceTree = "<group>";
@@ -334,12 +333,13 @@
 		8ECA67371DCA634200A0E241 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = CF;
+				CLASSPREFIX = CFD;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = DanilVoitenko;
 				TargetAttributes = {
 					8ECA673E1DCA634200A0E241 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A6LF3JN6LP;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -367,8 +367,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E3C2FE01DD78C8200F53AA4 /* CFStackOverflowTableViewCell.xib in Resources */,
-				8E3C2FE21DD790DE00F53AA4 /* CFBBCTableViewCell.xib in Resources */,
 				8ECA67521DCA634200A0E241 /* LaunchScreen.storyboard in Resources */,
 				8ECA674F1DCA634200A0E241 /* Assets.xcassets in Resources */,
 				8ECA674D1DCA634200A0E241 /* Main.storyboard in Resources */,
@@ -430,21 +428,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ED1F0361DCF780900C1AC8E /* CFBBCFeedsDataSource.m in Sources */,
-				8ED1F0221DCF49D000C1AC8E /* NSDate+CFDateConverter.m in Sources */,
-				8ED1F0021DCE05F100C1AC8E /* CFBBCArticle.m in Sources */,
-				8ED1F03A1DCF785800C1AC8E /* CFStackOverflowFeedsDataSource.m in Sources */,
-				8ED1F0321DCF77D600C1AC8E /* CFAllFeedsDataSource.m in Sources */,
-				8ED1F0441DCF78DC00C1AC8E /* CFBBCTableViewCell.m in Sources */,
-				8ED1F01E1DCE28E700C1AC8E /* CFStackOverflowPost.m in Sources */,
+				8ED1F0361DCF780900C1AC8E /* CFDBBCFeedsDataSource.m in Sources */,
+				8ED1F0221DCF49D000C1AC8E /* NSDate+CFDDateConverter.m in Sources */,
+				8ED1F0021DCE05F100C1AC8E /* CFDBBCArticle.m in Sources */,
+				8ED1F03A1DCF785800C1AC8E /* CFDStackOverflowFeedsDataSource.m in Sources */,
+				8ED1F0321DCF77D600C1AC8E /* CFDAllFeedsDataSource.m in Sources */,
+				8ED1F0441DCF78DC00C1AC8E /* CFDBBCTableViewCell.m in Sources */,
+				8ED1F01E1DCE28E700C1AC8E /* CFDStackOverflowPost.m in Sources */,
 				8ECA67471DCA634200A0E241 /* AppDelegate.m in Sources */,
-				8E3C2FDE1DD78AB000F53AA4 /* NSString+CFStringExtension.m in Sources */,
-				8ED1EFFE1DCDFC5100C1AC8E /* CFBBCNetworkManager.m in Sources */,
+				8E3C2FDE1DD78AB000F53AA4 /* NSString+CFDStringExtension.m in Sources */,
+				8ED1EFFE1DCDFC5100C1AC8E /* CFDBBCNetworkManager.m in Sources */,
 				8ECA67441DCA634200A0E241 /* main.m in Sources */,
-				8ECA675B1DCAA30F00A0E241 /* CFStackOverflowNetworkManager.m in Sources */,
-				8ED1F02E1DCF776A00C1AC8E /* CFMainViewController.m in Sources */,
-				8ED1F0401DCF78B700C1AC8E /* CFStackOverflowTableViewCell.m in Sources */,
-				8ED1F04A1DCF80EC00C1AC8E /* UIViewController+CFErrorAlert.m in Sources */,
+				8ECA675B1DCAA30F00A0E241 /* CFDStackOverflowNetworkManager.m in Sources */,
+				8ED1F02E1DCF776A00C1AC8E /* CFDMainViewController.m in Sources */,
+				8ED1F0401DCF78B700C1AC8E /* CFDStackOverflowTableViewCell.m in Sources */,
+				8ED1F04A1DCF80EC00C1AC8E /* UIViewController+CFDErrorAlert.m in Sources */,
+				8E3C2FE61DD89FEE00F53AA4 /* CFDDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,10 +564,14 @@
 			baseConfigurationReference = BA08587EABA4295A8AE3E8C7 /* Pods-CrossFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A6LF3JN6LP;
 				INFOPLIST_FILE = CrossFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DanilVoitenko.CrossFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -577,6 +580,8 @@
 			baseConfigurationReference = 76BB9F63E8CFE7BF8FDE8170 /* Pods-CrossFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A6LF3JN6LP;
 				INFOPLIST_FILE = CrossFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DanilVoitenko.CrossFeed;
