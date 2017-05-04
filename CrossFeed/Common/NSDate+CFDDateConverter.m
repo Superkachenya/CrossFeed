@@ -6,9 +6,11 @@
 //  Copyright © 2016 DanilVoitenko. All rights reserved.
 //
 
-#import "NSDate+CFDateConverter.h"
+#import "NSDate+CFDDateConverter.h"
 
-@implementation NSDate (CFDateConverter)
+NSInteger const kCFDSecsInMinute = 60;
+
+@implementation NSDate (CFDDateConverter)
 
 + (NSDate *)dateFromString:(NSString *)string {
     NSDateFormatter *dateFormatter = [NSDateFormatter new];
@@ -20,6 +22,12 @@
     return [NSDateFormatter localizedStringFromDate:self
                                           dateStyle:NSDateFormatterShortStyle
                                           timeStyle:NSDateFormatterMediumStyle];
+}
+
+- (NSInteger)calculateTimeBetweenNowAndDate {
+    NSDate *now = [NSDate date];
+    NSTimeInterval difference = [now timeIntervalSinceDate:self];
+    return (long)difference;
 }
 
 @end

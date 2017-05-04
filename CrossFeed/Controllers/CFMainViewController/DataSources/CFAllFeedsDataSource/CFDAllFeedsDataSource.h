@@ -1,5 +1,5 @@
 //
-//  CFStackOverflowFeedsDataSource.h
+//  CFDAllFeedsDataSource.h
 //  CrossFeed
 //
 //  Created by Danil on 11/6/16.
@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface CFStackOverflowFeedsDataSource : NSObject<UITableViewDelegate, UITableViewDataSource>
+@interface CFDAllFeedsDataSource : NSObject
 
 @end

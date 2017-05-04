@@ -8,10 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (CFDateConverter)
+extern NSInteger const kCFDSecsInMinute;
+
+@interface NSDate (CFDDateConverter)
 
 + (NSDate *)dateFromString:(NSString *)string;
 
 - (NSString *)stringFromDate;
+
+- (NSInteger)calculateTimeBetweenNowAndDate;
 
 @end

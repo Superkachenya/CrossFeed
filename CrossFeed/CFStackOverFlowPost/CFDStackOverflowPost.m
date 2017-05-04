@@ -6,27 +6,29 @@
 //  Copyright © 2016 DanilVoitenko. All rights reserved.
 //
 
-#import "CFStackOverflowPost.h"
+#import "CFDStackOverflowPost.h"
 
-@implementation CFStackOverflowPost
+NSString *const kCFDStackOverflowTitle = @"StackOverflow";
+
+@implementation CFDStackOverflowPost
 
 #pragma mark - Initializers
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary {
     if (self = [super init]) {
         _acceptedAnswerId = dictionary[@"accepted_answer_id"];
-        _answerCount = dictionary[@"answer_count"];
-        _pubDate = [self convertValueToDate:dictionary[@"creation_date"]];
-        _answered = dictionary[@"is_answered"];
+        _answerCount      = dictionary[@"answer_count"];
+        _pubDate          = [self convertValueToDate:dictionary[@"creation_date"]];
+        _answered         = dictionary[@"is_answered"];
         _lastActivityDate = [self convertValueToDate:dictionary[@"last_activity_date"]];
-        _lastEditDate = [self convertValueToDate:dictionary[@"last_edit_date"]];
-        _link = dictionary[@"link"];
-        _owner = dictionary[@"owner"];
-        _questionId = dictionary[@"question_id"];
-        _score = dictionary[@"score"];
-        _tags = dictionary[@"tags"];
-        _title = dictionary[@"title"];
-        _viewCount = dictionary[@"view_count"];
+        _lastEditDate     = [self convertValueToDate:dictionary[@"last_edit_date"]];
+        _link             = dictionary[@"link"];
+        _owner            = dictionary[@"owner"];
+        _questionId       = dictionary[@"question_id"];
+        _score            = dictionary[@"score"];
+        _tags             = dictionary[@"tags"];
+        _title            = dictionary[@"title"];
+        _viewCount        = dictionary[@"view_count"];
     }
     return self;
 }

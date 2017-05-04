@@ -6,12 +6,12 @@
 //  Copyright © 2016 DanilVoitenko. All rights reserved.
 //
 
-#import "UIViewController+CFErrorAlert.h"
+#import "UIViewController+CFDErrorAlert.h"
 
-@implementation UIViewController (CFErrorAlert)
+@implementation UIViewController (CFDErrorAlert)
 
 - (void)createAlertForError:(NSError *)error {
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"" message:@"" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Something wrong" message:error.localizedDescription preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *close = [UIAlertAction actionWithTitle:@"Close" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [alert dismissViewControllerAnimated:YES completion:nil];
     }];

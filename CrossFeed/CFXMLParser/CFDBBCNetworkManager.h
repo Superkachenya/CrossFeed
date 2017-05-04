@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^CFBBCNetworkCompletionBlock)(id result);
+typedef void (^CFDBBCNetworkCompletionBlock)(id result);
 
-@interface CFBBCNetworkManager : NSObject
+@interface CFDBBCNetworkManager : NSObject
 
 + (instancetype)sharedInstance;
 
-- (void)getBBCNewsFeedWithCompletion:(CFBBCNetworkCompletionBlock)completion;
+- (void)getBBCNewsFeedWithCompletion:(CFDBBCNetworkCompletionBlock)completion;
 
 @end

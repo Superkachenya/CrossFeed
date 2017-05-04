@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (CFErrorAlert)
+@interface UIViewController (CFDErrorAlert)
 
 - (void)createAlertForError:(NSError *)error;
 

@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@class CFBBCArticle;
+@class CFDBBCArticle;
 
-@interface CFBBCTableViewCell : UITableViewCell
+@interface CFDBBCTableViewCell : UITableViewCell
 
-- (void)configureCellWithArticle:(CFBBCArticle *)article;
+- (void)configureCellWithArticle:(CFDBBCArticle *)article;
 
 @end

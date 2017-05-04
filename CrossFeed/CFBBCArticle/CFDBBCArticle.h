@@ -8,11 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CFBBCArticle : NSObject
+extern NSString *const kCFDBBCTitle;
+
+@interface CFDBBCArticle : NSObject
 
 @property (nonatomic, strong, readonly) NSString *title;
 @property (nonatomic, strong, readonly) NSString *articleDescription;
-@property (nonatomic, strong, readonly) NSDate *pubDate;
+@property (nonatomic, strong, readonly) NSDate   *pubDate;
 @property (nonatomic, strong, readonly) NSString *link;
 @property (nonatomic, strong, readonly) NSString *guid;
 @property (nonatomic, strong, readonly) NSString *thumbnaleUrl;

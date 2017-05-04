@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CFStackOverflowPost : NSObject
+extern NSString *const kCFDStackOverflowTitle;
+
+
+@interface CFDStackOverflowPost : NSObject
 
 @property (strong, nonatomic, readonly) NSNumber *acceptedAnswerId;
 @property (strong, nonatomic, readonly) NSNumber *answerCount;

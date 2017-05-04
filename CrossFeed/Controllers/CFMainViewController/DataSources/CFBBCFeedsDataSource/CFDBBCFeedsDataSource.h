@@ -1,5 +1,5 @@
 //
-//  CFAllFeedsDataSource.h
+//  CFBBCFeedsDataSource.h
 //  CrossFeed
 //
 //  Created by Danil on 11/6/16.
@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface CFAllFeedsDataSource : NSObject<UITableViewDelegate, UITableViewDataSource>
+@interface CFDBBCFeedsDataSource : NSObject
 
 @end

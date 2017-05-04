@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@class CFStackOverflowPost;
+@class CFDStackOverflowPost;
 
-@interface CFStackOverflowTableViewCell : UITableViewCell
+@interface CFDStackOverflowTableViewCell : UITableViewCell
 
-- (void)configureCellWithPost:(CFStackOverflowPost *)post;
+- (void)configureCellWithPost:(CFDStackOverflowPost *)post;
 
 @end
